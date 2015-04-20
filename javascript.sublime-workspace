@@ -1,0 +1,438 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"in",
+				"inline-table"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"asse",
+				"assets/"
+			],
+			[
+				"link",
+				"links	link - stylesheet"
+			],
+			[
+				"st",
+				"style	Attr"
+			],
+			[
+				"sec",
+				"section	Tag"
+			],
+			[
+				"titl",
+				"title	Attr"
+			],
+			[
+				"b",
+				"br"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<html5",
+			"file": "introcss.sublime-workspace",
+			"file_size": 9,
+			"file_write_time": 130740429438995751,
+			"settings":
+			{
+				"buffer_size": 6,
+				"line_ending": "Unix",
+				"name": "main.html"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "ident",
+		"selected_items":
+		[
+			[
+				"ident",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 590.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/david/DesafioLatam/GitHub/clase-05-css",
+		"/home/david/DesafioLatam/GitHub/clase-05-css/assets",
+		"/home/david/DesafioLatam/GitHub/clase-05-css/assets/css"
+	],
+	"file_history":
+	[
+		"/home/david/DesafioLatam/GitHub/seudocodigo/seudo2",
+		"/home/david/DesafioLatam/GitHub/seudocodigo/seudo1",
+		"/home/david/DesafioLatam/GitHub/clase-05-css/assets/css/main.css",
+		"/home/david/DesafioLatam/GitHub/clase-05-css/assets/css/super-hero.css",
+		"/home/david/DesafioLatam/GitHub/clase-05-css/index.html",
+		"/home/david/DesafioLatam/GitHub/clase-05-css/.gitignore",
+		"/home/david/DesafioLatam/GitHub/clase-05-css/introcss.sublime-project",
+		"/home/david/DesafioLatam/GitHub/introcss.sublime-project",
+		"/home/david/DesafioLatam/GitHub/index.html",
+		"/home/david/DesafioLatam/HTML/Curriculum/index.html",
+		"/home/david/DesafioLatam/HTML/Curriculum/images/modified_ubuntu_logo_by_evanc9606-d4bw6mp.png",
+		"/home/david/DesafioLatam/HTML/index.html",
+		"/home/david/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/david/.config/sublime-text-3/Packages/User/ColorPicker.sublime-settings",
+		"/home/david/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/david/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/david/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/david/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/david/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/david/Desktop/pinterest2/app/views/devise/registrations/edit.html.erb",
+		"/home/david/Desktop/pinterest2/app/views/devise/registrations/new.html.erb",
+		"/home/david/Desktop/pinterest2/app/models/pin.rb",
+		"/home/david/Desktop/pinterest2/app/controllers/pins_controller.rb",
+		"/home/david/Desktop/pinterest2/app/controllers/application_controller.rb",
+		"/home/david/Desktop/pinterest2/db/schema.rb",
+		"/home/david/.cache/.fr-xzcX5k/algoritmo 1/Algoritmo 1.c",
+		"/home/david/.cache/.fr-PlwpNm/algoritmo 3/algoritmo 3.c",
+		"/home/david/.cache/.fr-M22LYc/algoritmo 2/algoritmo 2.c",
+		"/home/david/Desktop/pinterest2/config/routes.rb",
+		"/home/david/Desktop/pinterest2/app/views/pins/mypins.html.erb",
+		"/home/david/Desktop/pinterest2/app/views/pins/new.html.erb",
+		"/home/david/Desktop/pinterest2/app/views/pins/show.html.erb",
+		"/home/david/Desktop/pinterest2/app/views/pins/edit.html.erb",
+		"/home/david/Desktop/pinterest2/app/views/pins/index.html.erb",
+		"/home/david/Desktop/pinterest2/app/views/shared/_navbar.html.erb",
+		"/home/david/Desktop/pinterest2/app/models/user.rb",
+		"/home/david/Desktop/pinterest2/Gemfile",
+		"/home/david/Desktop/pinterest2/app/views/layouts/application.html.erb",
+		"/home/david/Desktop/pinterest2/app/views/pages/index.html.erb",
+		"/home/david/Desktop/pinterest2/app/assets/stylesheets/scaffolds.scss",
+		"/home/david/Desktop/pinterest/app/models/user.rb",
+		"/home/david/Desktop/pinterest/app/models/pin.rb",
+		"/home/david/Desktop/pinterest/app/views/shared/_navbar.html.erb",
+		"/home/david/Desktop/pinterest/app/views/pages/index.html.erb",
+		"/home/david/Desktop/pinterest/app/views/devise/registrations/new.html.erb",
+		"/home/david/Desktop/pinterest/app/views/pins/show.html.erb",
+		"/home/david/Desktop/pinterest/config/routes.rb",
+		"/home/david/Desktop/pinterest/app/views/devise/shared/_links.html.erb",
+		"/home/david/Desktop/pinterest/app/views/pins/index.html.erb",
+		"/home/david/Desktop/pinterest/app/views/layouts/application.html.erb",
+		"/home/david/Desktop/pinterest/app/controllers/application_controller.rb",
+		"/home/david/Desktop/pinterest/app/controllers/pins_controller.rb",
+		"/home/david/Desktop/pinterest/Gemfile",
+		"/home/david/Desktop/pinterest/app/assets/stylesheets/estilo.css",
+		"/home/david/Desktop/pinterest/app/views/pins/_form.html.erb",
+		"/home/david/Desktop/pinterest/app/views/pins/edit.html.erb",
+		"/home/david/Desktop/pinterest/app/views/pins/new.html.erb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"show"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "introcss.sublime-workspace",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "main.html",
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "javascript.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
