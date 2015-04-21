@@ -19,7 +19,7 @@
 	console.log(x);
 	*/
 
-	var numero =1; //este es un integer;
+	/*var numero =1; //este es un integer;
 	var palabra = 'Hola Mundo'; // este es un string
 	var bool =false; 
 	//console.log(typeof numero); // devuelve un string 'number'
@@ -130,7 +130,7 @@
 	la funcion que se pasa por atributo, debe imprimir 'hola mundo'.
 	*/
 
-	function suma(a, b, x){
+	/*function suma(a, b, x){
 	var d = a + b;
 	console.log(d);
 		x();
@@ -143,7 +143,136 @@
 
 	suma(3, 4, hola);
 
+	tarea 1
+	escribir una funcion que reciba otra funcion. y que la ejecute.
+	la funcion que reciba debe imprimir hola mundo*/
 	
+	/*function fun1(x){
+		x();
+	}
+
+	function fun2(){
+		console.log('Hola Mundo');
+	}
+
+	//fun1(fun2);
+
+
+	
+	/*tarea2
+
+	definir 3 funciones
+	una que reciba 2 funciones y las ejecute. y otras 2 funciones que 
+	impriman 'hola mundo' y 'adios mundo'*/
+
+
+	/*function imprimir(a,b){
+		a();
+		b();
+	}
+
+	function funx(){
+
+		console.log('Hola Mundo');
+	};
+
+	function funy(){
+
+		console.log('Adios Mundo');
+	};
+
+	//imprimir(funx, funy);
+
+	//tarea 3
+
+	//definir una funcion que reciba otra funcion. La segunda
+	//funcion debe imprimir los numeros 1 al 500, pero saltarse el 450
+
+	/*function correlativos(c){
+		c();
+	}
+
+	function numeros(){
+		for (var i = 1; i <= 500; i++) {
+			if (i != 450) {
+				console.log(i);
+			};
+		};
+	}
+
+	correlativos(numeros);*/
+
+
+	//tarea 4
+
+	//definir una funcion que reciba 2 funciones, la
+	//primera funcion debe imprimir los numeros pares. La segunda
+	//debe imprimir los numeros impares. ambas hasta el numero 1000 o menos.
+
+	/*function pares(){
+		for (var i = 1; i <= 100; i++) {
+			if (i % 2 == 0) {
+				console.log(i);
+			};
+		};
+	}
+
+	//pares();
+
+	function impar(){
+		for (var i = 1; i <= 100; i++) {
+			if (i % 2 != 0){
+				console.log(i);
+			};
+		};
+	}
+
+	//impar();
+
+	//tarea 5
+
+	//definir una funcion que reciba una funcion, esta ultima funcion debe
+	//imprimir los numeros primos, hasta el 10000.*/
+
+	function imp(z){
+		z();
+	}
+
+	function primo(){
+		
+		
+		for (var i = 1; i <= 100; i++) {
+			//console.log(i);
+			// cantidad de veces que es divisible el numero
+			var aux = 0; 
+
+			for (var j = 1; j <= i; j++) {
+				//console.log(j)
+				if (i % j === 0) {
+					aux += 1; // aumenta la cantidad en que se divide
+				};
+			};
+			
+			// si y solo si la cantidad es divisible en 2 numeros el numero es primo
+			if (aux === 2) { 
+				console.log(i);
+			};
+			
+		};
+	}
+
+	//imp(primo);
+
+	//Funciones anonimas
+
+	function(){
+
+	}()
+
+
+
+
+
 	</script>
 </body>
 </html>
