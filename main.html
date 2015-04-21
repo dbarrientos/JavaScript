@@ -79,16 +79,69 @@
 		suma(6, 5);
 	}*/
 
-	function multiplicacion(a, b, c, d){
-		if (typeof variableNoDefinida == 'undifined') {
-			console.log('No esta definida');
+	/*function multiplicacion(a, b, c, d){
+		if (typeof a != 'number') {
+			console.log('a no es numero');
+		};
+		if (typeof b != 'number') {
+			console.log('b no es numero');
+		};
+		if (typeof c != 'number') {
+			console.log('c no es numero');
+		};
+		if (typeof d != 'number') {
+			console.log('d no es numero');
 		};
 
 		console.log(a *b *c *d);
 	}
 
 	multiplicacion(4, 5, 3 ,1);
-	multiplicacion(5, 9, 6 ,10);
+	multiplicacion(5, 9, 6 ,10);*/
+
+	/*
+	crear una funcion que divida 2 numeros y validar que ambas variables
+	sean numeros mayores que 0*/
+
+	/*function dividir(a, b){
+		if (typeof a != 'number' || typeof b != 'number') {
+			console.log('a, b o ambos no son numeros');
+		}else if (a<=0 || b<=0) {
+			console.log('uno de los numeros es menor que cero');
+		}else{
+		console.log(a/b);
+		}
+	}
+
+	dividir(0, 8);*/
+
+	/*function suma(a, b, c){
+		var d = a+b;
+		c(d);
+	}
+
+	function imprime(d){
+		console.log(d);
+	}
+
+	suma(1, 2, imprime)
+	/*
+	declarar una funcion de suma que recibe 2 numeros y una funcion,
+	la funcion que se pasa por atributo, debe imprimir 'hola mundo'.
+	*/
+
+	function suma(a, b, x){
+	var d = a + b;
+	console.log(d);
+		x();
+	
+	}
+
+	function hola(){
+		console.log('Hola Mundo');
+	}
+
+	suma(3, 4, hola);
 
 	
 	</script>
