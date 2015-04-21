@@ -265,10 +265,30 @@
 
 	//Funciones anonimas
 
-	function(){
+	/*function(){
 
 	}()
 
+	var arr = [1, 2, 3, 4, 5];
+
+	arr.map(function(elemento, indice){
+
+	});*/
+
+	function imprime1(x){
+		console.log('Hola');
+		var mundo = 'Mundo';
+		x(mundo);
+	}
+
+	function imprime2(c){
+		console.log(c);
+	}
+
+	//imprime1(imprime2);
+	imprime1(function(x){
+		console.log(x);
+	});
 
 
 
