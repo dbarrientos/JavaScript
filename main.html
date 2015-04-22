@@ -234,32 +234,32 @@
 	//definir una funcion que reciba una funcion, esta ultima funcion debe
 	//imprimir los numeros primos, hasta el 10000.*/
 
-	function imp(z){
-		z();
-	}
+	// function imp(z){
+	// 	z();
+	// }
 
-	function primo(){
+	// function primo(){
 		
 		
-		for (var i = 1; i <= 100; i++) {
-			//console.log(i);
-			// cantidad de veces que es divisible el numero
-			var aux = 0; 
+	// 	for (var i = 1; i <= 100; i++) {
+	// 		//console.log(i);
+	// 		// cantidad de veces que es divisible el numero
+	// 		var aux = 0; 
 
-			for (var j = 1; j <= i; j++) {
-				//console.log(j)
-				if (i % j === 0) {
-					aux += 1; // aumenta la cantidad en que se divide
-				};
-			};
+	// 		for (var j = 1; j <= i; j++) {
+	// 			//console.log(j)
+	// 			if (i % j === 0) {
+	// 				aux += 1; // aumenta la cantidad en que se divide
+	// 			};
+	// 		};
 			
-			// si y solo si la cantidad es divisible en 2 numeros el numero es primo
-			if (aux === 2) { 
-				console.log(i);
-			};
+	// 		// si y solo si la cantidad es divisible en 2 numeros el numero es primo
+	// 		if (aux === 2) { 
+	// 			console.log(i);
+	// 		};
 			
-		};
-	}
+	// 	};
+	// }
 
 	//imp(primo);
 
@@ -321,6 +321,68 @@
 	
 // });
 
+// Clases
+
+/*function Perro(){
+	this.cantidadDePatas = 4;
+}
+
+var wuawui = new Perro();
+
+wuawui.nombre = 'wuawui';
+wuawui.raza = 'Yorkshire Toy';
+wuawui.anos = 3;
+
+console.log(wuawui);
+
+var baco = new Perro();
+
+baco.nombre= 'baco';
+baco.raza= 'Golden retriever';
+baco.anos= 1;
+
+console.log(baco);*/
+
+/*ejercicio1 
+
+crear la clase humano con atributos 
+nombre
+edad
+color pelo
+y que estos por defecto sean
+juan
+30
+rojo
+*/
+
+function Humano(){
+
+	this.nombre='Juan';
+	this.edad= 30;
+	this.colorPelo='Rojo';
+}
+
+
+/* ejercicio 2
+crear 2 instancias de humano
+
+cabiar su nombre a eduardo
+cambiar su pelo a castaño claro
+*/
+
+var h1 = new Humano();
+
+h1.nombre='Eduardo';
+
+var h2 = new Humano();
+
+h2.colorPelo = 'Castaño Claro';
+
+console.log(h1, h2);
+
+
+
 	</script>
+
 </body>
 </html>
